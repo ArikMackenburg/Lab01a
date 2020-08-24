@@ -28,9 +28,6 @@ namespace Lab
             decimal divisor = product/quotient;
             Console.WriteLine($"{product}/{divisor} = {quotient}");
 
-            // i set the sum to a variable so it didnt run the method again
-
-
         }
 
         static int[] Populate(int[] array)
