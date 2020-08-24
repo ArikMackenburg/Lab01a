@@ -19,7 +19,7 @@ namespace Lab
             int sum = GetSum(array);
             int product = GetProduct(array,sum,inputNum);
             decimal quotient = GetQuotient(product);
-            Console.WriteLine($"Your array size is: {inputNum}.");
+            Console.WriteLine($"Your array size is: {inputNum}");
             Console.Write("The numbers in your array are ");
             Console.Write(String.Join(",",array));
             Console.WriteLine($"The sum of your array is {sum}");
@@ -56,13 +56,13 @@ namespace Lab
         }
         static int GetProduct(int[] array,int sum,int x)
         {
-            Console.WriteLine($"Select a number between 1 and {x-1}.");
-            int product = 0;
+            Console.WriteLine($"Select a number between 1 and {x}.");
+            int product;
             prompt:
             try
             {
                 string input = Console.ReadLine();
-                int inputNum = Convert.ToInt32(input);
+                int inputNum = Convert.ToInt32(input)-1;
                 product = array[inputNum] * sum;
             }
             catch(IndexOutOfRangeException ex)
