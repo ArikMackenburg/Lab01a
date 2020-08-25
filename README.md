@@ -9,11 +9,11 @@
 + GetProduct Method
 + GetQuotient
 ## Guidance
-Within the Program.cs file, add the following methods described below.
++ Within the Program.cs file, add the following methods described below.
 
-Allow the main method to output all generic exceptions. Only define specific exceptions once and pay attention to the callstack on how requests are being made.
++ Allow the main method to output all generic exceptions. Only define specific exceptions once and pay attention to the callstack on how requests are being made.
 
-Do not use any “global” variables in this application
++ Do not use any “global” variables in this application
 
 ### Main Method
 This method is given to you. Do not change the method signature.
